@@ -13,7 +13,7 @@ p {
 }
 
 a {
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* .title {
@@ -24,12 +24,28 @@ a {
     float: right;
 }  */
 
-.navbar {
+.links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.navbar {
+    /* display: flex;
+    justify-content: space-between; */
     padding: 20px;
     background: #551a8b;
     width: 100%;
     color: rgba(255, 255, 255, 0.8);
 }
 
+@media only screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+}
