@@ -16,13 +16,13 @@ a {
     margin-left: 20px;
 }
 
-.title {
-    /* display: inline-block; */
+/* .title {
+    display: inline-block;
 }
 
 .links {
-    /* float: right; */
-}
+    float: right;
+}  */
 
 .navbar {
     display: flex;
