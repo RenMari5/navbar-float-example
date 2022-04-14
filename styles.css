@@ -17,14 +17,16 @@ a {
 }
 
 .title {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .links {
-    float: right;
+    /* float: right; */
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     background: #551a8b;
     width: 100%;
